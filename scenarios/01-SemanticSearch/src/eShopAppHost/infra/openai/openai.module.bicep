@@ -44,7 +44,7 @@ resource text_embedding_ada_002 'Microsoft.CognitiveServices/accounts/deployment
     }
   }
   sku: {
-    name: 'Standard'
+    name: 'GlobalStandard'
     capacity: 8
   }
   parent: openai
